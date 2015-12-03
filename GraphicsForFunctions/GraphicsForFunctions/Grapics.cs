@@ -76,7 +76,7 @@ namespace Application_for_course_project
             double bInPaintCoords = centerCoordinateX + app.b / unitsProPixel;
             double a = 0;
             double b = 0;
-            if (aInPaintCoords<=x+width)
+            if (aInPaintCoords<=x+width)          
             {
                 if (bInPaintCoords >= x)
                 {
